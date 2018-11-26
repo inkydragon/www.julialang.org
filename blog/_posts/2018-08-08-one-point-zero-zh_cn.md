@@ -200,7 +200,7 @@ innovative language features. Some of the new features since version 0.6 include
   This eliminates the “soft/hard scope” distinction that previously existed and means that
   now Julia can always statically determine whether variables are local or global. -->
 
-* Julia语言本身变得更加轻量级来，很多部分都不放在来标准库中。这个标准库将和Julia一起发布但是不会作为语言的基础依赖。
+* Julia语言本身变得更加轻量级了，很多部分都不放在来标准库中。这个标准库将和Julia一起发布但是不会作为语言的基础依赖。
 如果你需要他们，那么只需导入这些库即可（不需要再安装）但是它们不再强制你使用了。在未来这些标准库将会单独被标记版本和更新
 以获取更快的改进和升级。
 
